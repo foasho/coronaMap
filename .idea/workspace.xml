@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e6300eb-58af-45a1-88ca-eefb9b211573" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/coronaMap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraping_corona.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/mystyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/chartjs2.9.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.japan-map.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/myscript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/map.html" afterDir="false" />
-    </list>
+    <list default="true" id="9e6300eb-58af-45a1-88ca-eefb9b211573" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +102,7 @@
       <workItem from="1585287698045" duration="30065000" />
       <workItem from="1585453796383" duration="601000" />
       <workItem from="1585461281856" duration="1199000" />
-      <workItem from="1585523011689" duration="2853000" />
+      <workItem from="1585523011689" duration="3448000" />
     </task>
     <servers />
   </component>

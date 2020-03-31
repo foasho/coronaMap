@@ -3,8 +3,8 @@ from scraping_corona import get_colona_data#追加
 import os#追加
 
 app = Flask(__name__)
-server_mode = "local"
-#server_mode = "heroku"
+#server_mode = "local"
+server_mode = "heroku"
 
 @app.route("/", methods=["GET", "POST"])
 def corona_page():
