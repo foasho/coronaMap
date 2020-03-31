@@ -1,6 +1,6 @@
 from flask import *
-from scraping_corona import get_colona_data#追加
-import os#追加
+from scraping_corona import get_colona_data
+import os
 
 app = Flask(__name__)
 #server_mode = "local"
@@ -8,7 +8,7 @@ server_mode = "heroku"
 
 @app.route("/", methods=["GET", "POST"])
 def corona_page():
-    japan_corona_data = get_colona_data()#追加
+    japan_corona_data = get_colona_data()
     return render_template("map.html", japan_corona_data=japan_corona_data)
 
 if __name__ == "__main__":
