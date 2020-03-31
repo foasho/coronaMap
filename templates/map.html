@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>日本MAP</title>
+
+        <!-- JQueryとJapanMapの指定 -->
+        <script src="../static/js/jquery.3.4.1.min.js"></script>
+        <script src="../static/js/jquery.japan-map.min.js"></script>
+
+        <!-- MAP描画用ライブラリ　Chart.jsのファイル指定 -->
+        <script src="../static/js/chartjs2.9.3.min.js"></script>
+
+        <!-- 自分で記述していくJavascriptファイルの指定 -->
+        <script src="../static/js/myscript.js"></script>
+
+        <!-- 自分で記述していくCSSファイルの指定 -->
+        <link href="../static/css/mystyle.css" rel="stylesheet"/>
+    </head>
+    <body>
+    <!-- 大きなコンテナ -->
+    <div class="main-container">
+        <!-- サイドバーの追加 -->
+        <div class="side-bar" id="map_sidebar"></div>
+
+        <!-- MAPを記述していくコンテナ -->
+        <div id="map-container"></div>
+
+        <!-- データを格納エリア -->
+        <div id="japan_corona_data">
+            {% for data in japan_corona_data %}
+            <div class="corona-data" id="{{ data.code_id }}" data-prefectures="{{ data.prefectures }}" data-code_num="{{ data.code_num }}" data-patient_num="{{ data.patient_num }}" data-hex_data="{{ data.hex_data }}"></div>
+            {% endfor %}
+        </div>
+    </div>
+    </body>
+</html>
